@@ -1,7 +1,7 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-package com.mycompany.mavenproject1;
+package com.mycompany.at01;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author aluno.den
  */
-public class Mavenproject1 {
+public class AT01 {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
