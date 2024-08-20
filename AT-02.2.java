@@ -1,7 +1,7 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-package com.mycompany.mavenproject2;
+package com.mycompany.mavenproject3;
 
 import java.util.Scanner;
 
@@ -20,13 +20,14 @@ public class Mavenproject3 {
         int Dis = 0;
         int numero;
 
+        System.out.println("Alcool | 1");
+        System.out.println("Gasolina | 2");
+        System.out.println("Disel | 3");
+        System.out.println("Info Completa | 4");
+        System.out.println(" ");
+
         do {
 
-            System.out.println("Alcool | 1");
-            System.out.println("Gasolina | 2");
-            System.out.println("Disel | 3");
-            System.out.println("Info Completa | 4");
-            System.out.println(" ");
             System.out.printf("Digite um Codigo: ");
             numero = sc.nextInt();
 
@@ -40,7 +41,7 @@ public class Mavenproject3 {
             } else if (numero == 3) {
 
                 Dis = Dis + 1;
-            } else if (numero != 4){
+            } else if (numero != 4) {
 
                 System.out.println("Codigo Invalido");
                 System.out.println(" ");
@@ -48,6 +49,7 @@ public class Mavenproject3 {
 
         } while (numero != 4);
 
+        System.out.println(" ");
         System.out.println("MUITO OBRIGADO");
         System.out.println("Gasolina: " + Gas);
         System.out.println("Alcool: " + Alc);
