@@ -40,7 +40,7 @@ public class Mavenproject3 {
             } else if (numero == 3) {
 
                 Dis = Dis + 1;
-            } else {
+            } else if (numero != 4){
 
                 System.out.println("Codigo Invalido");
                 System.out.println(" ");
