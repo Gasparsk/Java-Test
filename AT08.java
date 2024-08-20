@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class AT08 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
 
         Scanner sc = new Scanner(System.in);
         float media = 0;
