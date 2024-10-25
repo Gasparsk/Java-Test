@@ -14,7 +14,7 @@ public class Main {
             System.out.println("Funcionário #" + i + " dados:");
             System.out.print("Terceirizado (s/n)? ");
             char tipo = sc.next().charAt(0);
-            sc.nextLine();  // Consumir a quebra de linha
+            sc.nextLine();  // Consumir a quebra de linha para evitar problemas com a entrada de texto
             System.out.print("Nome: ");
             String nome = sc.nextLine();
             System.out.print("Horas trabalhadas: ");
