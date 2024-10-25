@@ -7,11 +7,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         List<Funcionario> funcionarios = new ArrayList<>();
 
-        System.out.print("Digite o número de funcionários: ");
+        System.out.print("Digite o nÃºmero de funcionÃ¡rios: ");
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            System.out.println("Funcionário #" + i + " dados:");
+            System.out.println("FuncionÃ¡rio #" + i + " dados:");
             System.out.print("Terceirizado (s/n)? ");
             char tipo = sc.next().charAt(0);
             sc.nextLine();  // Consumir a quebra de linha
